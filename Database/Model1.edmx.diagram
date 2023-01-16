@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ff914501f8ec4b938dd260638147d945" Name="Diagram1">
+        <EntityTypeShape EntityType="user8Model.Category" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.Manufacturer" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.Order" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.OrderComposition" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.Role" Width="1.5" PointX="5.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.StatusOrder" Width="1.5" PointX="7.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.Suppliers" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.sysdiagrams" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.Unit" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.User" Width="1.5" PointX="8" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="user8Model.FK__Product__Product__47A6A41B" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__Product__Product__4A8310C6" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__Order__OrderStat__44CA3770" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__OrderComp__Count__4D5F7D71" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__Product__Product__489AC854" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__Product__Product__498EEC8D" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK__User__UserRole__41EDCAC5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
